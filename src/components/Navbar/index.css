@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+.logo {
+  width: 50px;
+}
+.theme {
+  width: 50px;
+}
+ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.nav-dark {
+  background-color: gray;
+  color: white;
+}
+button {
+  background-color: transparent;
+  border-width: 0px;
+}
